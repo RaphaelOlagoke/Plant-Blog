@@ -1,0 +1,122 @@
+header{
+    background-image: url("images/background.jpg");
+    height: 700px;
+}
+
+.heading .title{
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 5rem;
+    width: 100%;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.navbar{
+    background: transparent;
+    transition:all 0.6s;
+    z-index: 1000;
+}
+
+.navbar-toggler .navbar-icon{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.fixed-top{
+    background: white;
+    width: 100%;
+    box-shadow: 10px 3px 20px rgb(155, 152, 152);
+}
+
+.fixed-top .container-fluid .navbar-toggler .navbar-icon{
+    color: black;
+}
+
+.fixed-top .navbar-nav li a, .fixed-top li a:active{
+    color: green;
+    font-size: 20px;
+}
+
+.fixed-top .navbar-nav li a:hover, .fixed-top .navbar-nav li .active{
+    border-bottom: 2px solid green;
+    color: green;
+}
+
+.navbar-nav li{
+    padding: 1rem 2rem;
+}
+
+.navbar-nav li a, .navbar-nav li a:active{
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li .active{
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+
+/*//////////////////////////////////////////    MAIN   ////////////////////////////// */
+
+main{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.plant-image{
+    width: 40%;
+    border-radius: 10%;
+    float: left;
+    margin-right: 50px;
+}
+
+.plant-description{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
+    font-size: 1.2rem;
+}
+
+.signup{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(245, 234, 234);
+}
+
+.signup .btn{
+    background-color: green;
+    color: white;
+}
+
+
+/* //////////////////////////////////////////////////////  FOOTER ///////////////////////////////////////////////*/
+
+.footer-link, .footer-link:active{
+    color: green;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+.icon{
+    color: rgb(94, 87, 87);
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .plant-description{
+        padding-top: 20px;
+    }
+    
+}
